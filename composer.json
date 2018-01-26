@@ -8,11 +8,9 @@
             "email": "542506511@qq.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "notebook": ""
         }
     }
 }
-
