@@ -1,0 +1,485 @@
+## 数组函数
+
+- [array_change_key_case](http://php.net/manual/zh/function.array-change-key-case.php) — 将数组中的所有键名修改为全大写或小写
+- [array_chunk](http://php.net/manual/zh/function.array-chunk.php) — 将一个数组分割成多个
+- [array_column](http://php.net/manual/zh/function.array-column.php) — 返回数组中指定的一列
+- [array_combine](http://php.net/manual/zh/function.array-combine.php) — 创建一个数组，用一个数组的值作为其键名，另一个数组的值作为其值
+- [array_count_values](http://php.net/manual/zh/function.array-count-values.php) — 统计数组中所有的值
+- [array_diff_assoc](http://php.net/manual/zh/function.array-diff-assoc.php) — 带索引检查计算数组的差集
+- [array_diff_key](http://php.net/manual/zh/function.array-diff-key.php) — 使用键名比较计算数组的差集
+- [array_diff_uassoc](http://php.net/manual/zh/function.array-diff-uassoc.php) — 用用户提供的回调函数做索引检查来计算数组的差集
+- [array_diff_ukey](http://php.net/manual/zh/function.array-diff-ukey.php) — 用回调函数对键名比较计算数组的差集
+- [array_diff](http://php.net/manual/zh/function.array-diff.php) — 计算数组的差集
+- [array_fill_keys](http://php.net/manual/zh/function.array-fill-keys.php) — 使用指定的键和值填充数组
+- [array_fill](http://php.net/manual/zh/function.array-fill.php) — 用给定的值填充数组
+- [array_filter](http://php.net/manual/zh/function.array-filter.php) — 用回调函数过滤数组中的单元
+- [array_flip](http://php.net/manual/zh/function.array-flip.php) — 交换数组中的键和值
+- [array_intersect_assoc](http://php.net/manual/zh/function.array-intersect-assoc.php) — 带索引检查计算数组的交集
+- [array_intersect_key](http://php.net/manual/zh/function.array-intersect-key.php) — 使用键名比较计算数组的交集
+- [array_intersect_uassoc](http://php.net/manual/zh/function.array-intersect-uassoc.php) — 带索引检查计算数组的交集，用回调函数比较索引
+- [array_intersect_ukey](http://php.net/manual/zh/function.array-intersect-ukey.php) — 用回调函数比较键名来计算数组的交集
+- [array_intersect](http://php.net/manual/zh/function.array-intersect.php) — 计算数组的交集
+- [array_key_exists](http://php.net/manual/zh/function.array-key-exists.php) — 检查数组里是否有指定的键名或索引
+- [array_keys](http://php.net/manual/zh/function.array-keys.php) — 返回数组中部分的或所有的键名
+- [array_map](http://php.net/manual/zh/function.array-map.php) — 为数组的每个元素应用回调函数
+- [array_merge_recursive](http://php.net/manual/zh/function.array-merge-recursive.php) — 递归地合并一个或多个数组
+- [array_merge](http://php.net/manual/zh/function.array-merge.php) — 合并一个或多个数组
+- [array_multisort](http://php.net/manual/zh/function.array-multisort.php) — 对多个数组或多维数组进行排序
+- [array_pad](http://php.net/manual/zh/function.array-pad.php) — 以指定长度将一个值填充进数组
+- [array_pop](http://php.net/manual/zh/function.array-pop.php) — 弹出数组最后一个单元（出栈）
+- [array_product](http://php.net/manual/zh/function.array-product.php) — 计算数组中所有值的乘积
+- [array_push](http://php.net/manual/zh/function.array-push.php) — 将一个或多个单元压入数组的末尾（入栈）
+- [array_rand](http://php.net/manual/zh/function.array-rand.php) — 从数组中随机取出一个或多个单元
+- [array_reduce](http://php.net/manual/zh/function.array-reduce.php) — 用回调函数迭代地将数组简化为单一的值
+- [array_replace_recursive](http://php.net/manual/zh/function.array-replace-recursive.php) — 使用传递的数组递归替换第一个数组的元素
+- [array_replace](http://php.net/manual/zh/function.array-replace.php) — 使用传递的数组替换第一个数组的元素
+- [array_reverse](http://php.net/manual/zh/function.array-reverse.php) — 返回单元顺序相反的数组
+- [array_search](http://php.net/manual/zh/function.array-search.php) — 在数组中搜索给定的值，如果成功则返回首个相应的键名
+- [array_shift](http://php.net/manual/zh/function.array-shift.php) — 将数组开头的单元移出数组
+- [array_slice](http://php.net/manual/zh/function.array-slice.php) — 从数组中取出一段
+- [array_splice](http://php.net/manual/zh/function.array-splice.php) — 去掉数组中的某一部分并用其它值取代
+- [array_sum](http://php.net/manual/zh/function.array-sum.php) — 对数组中所有值求和
+- [array_udiff_assoc](http://php.net/manual/zh/function.array-udiff-assoc.php) — 带索引检查计算数组的差集，用回调函数比较数据
+- [array_udiff_uassoc](http://php.net/manual/zh/function.array-udiff-uassoc.php) — 带索引检查计算数组的差集，用回调函数比较数据和索引
+- [array_udiff](http://php.net/manual/zh/function.array-udiff.php) — 用回调函数比较数据来计算数组的差集
+- [array_uintersect_assoc](http://php.net/manual/zh/function.array-uintersect-assoc.php) — 带索引检查计算数组的交集，用回调函数比较数据
+- [array_uintersect_uassoc](http://php.net/manual/zh/function.array-uintersect-uassoc.php) — 带索引检查计算数组的交集，用单独的回调函数比较数据和索引
+- [array_uintersect](http://php.net/manual/zh/function.array-uintersect.php) — 计算数组的交集，用回调函数比较数据
+- [array_unique](http://php.net/manual/zh/function.array-unique.php) — 移除数组中重复的值
+- [array_unshift](http://php.net/manual/zh/function.array-unshift.php) — 在数组开头插入一个或多个单元
+- [array_values](http://php.net/manual/zh/function.array-values.php) — 返回数组中所有的值
+- [array_walk_recursive](http://php.net/manual/zh/function.array-walk-recursive.php) — 对数组中的每个成员递归地应用用户函数
+- [array_walk](http://php.net/manual/zh/function.array-walk.php) — 使用用户自定义函数对数组中的每个元素做回调处理
+- [array](http://php.net/manual/zh/function.array.php) — 新建一个数组
+- [arsort](http://php.net/manual/zh/function.arsort.php) — 对数组进行逆向排序并保持索引关系
+- [asort](http://php.net/manual/zh/function.asort.php) — 对数组进行排序并保持索引关系
+- [compact](http://php.net/manual/zh/function.compact.php) — 建立一个数组，包括变量名和它们的值
+- [count](http://php.net/manual/zh/function.count.php) — 计算数组中的单元数目，或对象中的属性个数
+- [current](http://php.net/manual/zh/function.current.php) — 返回数组中的当前单元
+- [each](http://php.net/manual/zh/function.each.php) — 返回数组中当前的键／值对并将数组指针向前移动一步
+- [end](http://php.net/manual/zh/function.end.php) — 将数组的内部指针指向最后一个单元
+- [extract](http://php.net/manual/zh/function.extract.php) — 从数组中将变量导入到当前的符号表
+- [in_array](http://php.net/manual/zh/function.in-array.php) — 检查数组中是否存在某个值
+- [key_exists](http://php.net/manual/zh/function.key-exists.php) — 别名 array_key_exists
+- [key](http://php.net/manual/zh/function.key.php) — 从关联数组中取得键名
+- [krsort](http://php.net/manual/zh/function.krsort.php) — 对数组按照键名逆向排序
+- [ksort](http://php.net/manual/zh/function.ksort.php) — 对数组按照键名排序
+- [list](http://php.net/manual/zh/function.list.php) — 把数组中的值赋给一组变量
+- [natcasesort](http://php.net/manual/zh/function.natcasesort.php) — 用“自然排序”算法对数组进行不区分大小写字母的排序
+- [natsort](http://php.net/manual/zh/function.natsort.php) — 用“自然排序”算法对数组排序
+- [next](http://php.net/manual/zh/function.next.php) — 将数组中的内部指针向前移动一位
+- [pos](http://php.net/manual/zh/function.pos.php) — current 的别名
+- [prev](http://php.net/manual/zh/function.prev.php) — 将数组的内部指针倒回一位
+- [range](http://php.net/manual/zh/function.range.php) — 根据范围创建数组，包含指定的元素
+- [reset](http://php.net/manual/zh/function.reset.php) — 将数组的内部指针指向第一个单元
+- [rsort](http://php.net/manual/zh/function.rsort.php) — 对数组逆向排序
+- [shuffle](http://php.net/manual/zh/function.shuffle.php) — 打乱数组
+- [sizeof](http://php.net/manual/zh/function.sizeof.php) — count 的别名
+- [sort](http://php.net/manual/zh/function.sort.php) — 对数组排序
+- [uasort](http://php.net/manual/zh/function.uasort.php) — 使用用户自定义的比较函数对数组中的值进行排序并保持索引关联
+- [uksort](http://php.net/manual/zh/function.uksort.php) — 使用用户自定义的比较函数对数组中的键名进行排序
+- [usort](http://php.net/manual/zh/function.usort.php) — 使用用户自定义的比较函数对数组中的值进行排序
+
+## 字符串函数
+
+- [addcslashes](http://php.net/manual/zh/function.addcslashes.php) — 以 C 语言风格使用反斜线转义字符串中的字符
+- [addslashes](http://php.net/manual/zh/function.addslashes.php) — 使用反斜线引用字符串
+- [bin2hex](http://php.net/manual/zh/function.bin2hex.php) — 函数把包含数据的二进制字符串转换为十六进制值
+- [chop](http://php.net/manual/zh/function.chop.php) — rtrim 的别名
+- [chr](http://php.net/manual/zh/function.chr.php) — 返回指定的字符
+- [chunk_split](http://php.net/manual/zh/function.chunk-split.php) — 将字符串分割成小块
+- [convert_cyr_string](http://php.net/manual/zh/function.convert-cyr-string.php) — 将字符由一种 Cyrillic 字符转换成另一种
+- [convert_uudecode](http://php.net/manual/zh/function.convert-uudecode.php) — 解码一个 uuencode 编码的字符串
+- [convert_uuencode](http://php.net/manual/zh/function.convert-uuencode.php) — 使用 uuencode 编码一个字符串
+- [count_chars](http://php.net/manual/zh/function.count-chars.php) — 返回字符串所用字符的信息
+- [crc32](http://php.net/manual/zh/function.crc32.php) — 计算一个字符串的 crc32 多项式
+- [crypt](http://php.net/manual/zh/function.crypt.php) — 单向字符串散列
+- [echo](http://php.net/manual/zh/function.echo.php) — 输出一个或多个字符串
+- [explode](http://php.net/manual/zh/function.explode.php) — 使用一个字符串分割另一个字符串
+- [fprintf](http://php.net/manual/zh/function.fprintf.php) — 将格式化后的字符串写入到流
+- [get_html_translation_table](http://php.net/manual/zh/function.get-html-translation-table.php) — 返回使用 htmlspecialchars 和 htmlentities 后的转换表
+- [hebrev](http://php.net/manual/zh/function.hebrev.php) — 将逻辑顺序希伯来文（logical-Hebrew）转换为视觉顺序希伯来文（visual-Hebrew）
+- [hebrevc](http://php.net/manual/zh/function.hebrevc.php) — 将逻辑顺序希伯来文（logical-Hebrew）转换为视觉顺序希伯来文（visual-Hebrew），并且转换换行符
+- [hex2bin](http://php.net/manual/zh/function.hex2bin.php) — 转换十六进制字符串为二进制字符串
+- [html_entity_decode](http://php.net/manual/zh/function.html-entity-decode.php) — Convert all HTML entities to their applicable characters
+- [htmlentities](http://php.net/manual/zh/function.htmlentities.php) — 将字符转换为 HTML 转义字符
+- [htmlspecialchars_decode](http://php.net/manual/zh/function.htmlspecialchars-decode.php) — 将特殊的 HTML 实体转换回普通字符
+- [htmlspecialchars](http://php.net/manual/zh/function.htmlspecialchars.php) — 将特殊字符转换为 HTML 实体
+- [implode](http://php.net/manual/zh/function.implode.php) — 将一个一维数组的值转化为字符串
+- [join](http://php.net/manual/zh/function.join.php) — 别名 implode
+- [lcfirst](http://php.net/manual/zh/function.lcfirst.php) — 使一个字符串的第一个字符小写
+- [levenshtein](http://php.net/manual/zh/function.levenshtein.php) — 计算两个字符串之间的编辑距离
+- [localeconv](http://php.net/manual/zh/function.localeconv.php) — Get numeric formatting information
+- [ltrim](http://php.net/manual/zh/function.ltrim.php) — 删除字符串开头的空白字符（或其他字符）
+- [md5_file](http://php.net/manual/zh/function.md5-file.php) — 计算指定文件的 MD5 散列值
+- [md5](http://php.net/manual/zh/function.md5.php) — 计算字符串的 MD5 散列值
+- [metaphone](http://php.net/manual/zh/function.metaphone.php) — Calculate the metaphone key of a string
+- [money_format](http://php.net/manual/zh/function.money-format.php) — 将数字格式化成货币字符串
+- [nl_langinfo](http://php.net/manual/zh/function.nl-langinfo.php) — Query language and locale information
+- [nl2br](http://php.net/manual/zh/function.nl2br.php) — 在字符串所有新行之前插入 HTML 换行标记
+- [number_format](http://php.net/manual/zh/function.number-format.php) — 以千位分隔符方式格式化一个数字
+- [ord](http://php.net/manual/zh/function.ord.php) — 返回字符的 ASCII 码值
+- [parse_str](http://php.net/manual/zh/function.parse-str.php) — 将字符串解析成多个变量
+- [print](http://php.net/manual/zh/function.print.php) — 输出字符串
+- [printf](http://php.net/manual/zh/function.printf.php) — 输出格式化字符串
+- [quoted_printable_decode](http://php.net/manual/zh/function.quoted-printable-decode.php) — 将 quoted-printable 字符串转换为 8-bit 字符串
+- [quoted_printable_encode](http://php.net/manual/zh/function.quoted-printable-encode.php) — 将 8-bit 字符串转换成 quoted-printable 字符串
+- [quotemeta](http://php.net/manual/zh/function.quotemeta.php) — 转义元字符集
+- [rtrim](http://php.net/manual/zh/function.rtrim.php) — 删除字符串末端的空白字符（或者其他字符）
+- [setlocale](http://php.net/manual/zh/function.setlocale.php) — 设置地区信息
+- [sha1_file](http://php.net/manual/zh/function.sha1-file.php) — 计算文件的 sha1 散列值
+- [sha1](http://php.net/manual/zh/function.sha1.php) — 计算字符串的 sha1 散列值
+- [similar_text](http://php.net/manual/zh/function.similar-text.php) — 计算两个字符串的相似度
+- [soundex](http://php.net/manual/zh/function.soundex.php) — Calculate the soundex key of a string
+- [sprintf](http://php.net/manual/zh/function.sprintf.php) — Return a formatted string
+- [sscanf](http://php.net/manual/zh/function.sscanf.php) — 根据指定格式解析输入的字符
+- [str_getcsv](http://php.net/manual/zh/function.str-getcsv.php) — 解析 CSV 字符串为一个数组
+- [str_ireplace](http://php.net/manual/zh/function.str-ireplace.php) — str_replace 的忽略大小写版本
+- [str_pad](http://php.net/manual/zh/function.str-pad.php) — 使用另一个字符串填充字符串为指定长度
+- [str_repeat](http://php.net/manual/zh/function.str-repeat.php) — 重复一个字符串
+- [str_replace](http://php.net/manual/zh/function.str-replace.php) — 子字符串替换
+- [str_rot13](http://php.net/manual/zh/function.str-rot13.php) — 对字符串执行 ROT13 转换
+- [str_shuffle](http://php.net/manual/zh/function.str-shuffle.php) — 随机打乱一个字符串
+- [str_split](http://php.net/manual/zh/function.str-split.php) — 将字符串转换为数组
+- [str_word_count](http://php.net/manual/zh/function.str-word-count.php) — 返回字符串中单词的使用情况
+- [strcasecmp](http://php.net/manual/zh/function.strcasecmp.php) — 二进制安全比较字符串（不区分大小写）
+- [strchr](http://php.net/manual/zh/function.strchr.php) — 别名 strstr
+- [strcmp](http://php.net/manual/zh/function.strcmp.php) — 二进制安全字符串比较
+- [strcoll](http://php.net/manual/zh/function.strcoll.php) — 基于区域设置的字符串比较
+- [strcspn](http://php.net/manual/zh/function.strcspn.php) — 获取不匹配遮罩的起始子字符串的长度
+- [strip_tags](http://php.net/manual/zh/function.strip-tags.php) — 从字符串中去除 HTML 和 PHP 标记
+- [stripcslashes](http://php.net/manual/zh/function.stripcslashes.php) — 反引用一个使用 addcslashes 转义的字符串
+- [stripos](http://php.net/manual/zh/function.stripos.php) — 查找字符串首次出现的位置（不区分大小写）
+- [stripslashes](http://php.net/manual/zh/function.stripslashes.php) — 反引用一个引用字符串
+- [stristr](http://php.net/manual/zh/function.stristr.php) — strstr 函数的忽略大小写版本
+- [strlen](http://php.net/manual/zh/function.strlen.php) — 获取字符串长度
+- [strnatcasecmp](http://php.net/manual/zh/function.strnatcasecmp.php) — 使用“自然顺序”算法比较字符串（不区分大小写）
+- [strnatcmp](http://php.net/manual/zh/function.strnatcmp.php) — 使用自然排序算法比较字符串
+- [strncasecmp](http://php.net/manual/zh/function.strncasecmp.php) — 二进制安全比较字符串开头的若干个字符（不区分大小写）
+- [strncmp](http://php.net/manual/zh/function.strncmp.php) — 二进制安全比较字符串开头的若干个字符
+- [strpbrk](http://php.net/manual/zh/function.strpbrk.php) — 在字符串中查找一组字符的任何一个字符
+- [strpos](http://php.net/manual/zh/function.strpos.php) — 查找字符串首次出现的位置
+- [strrchr](http://php.net/manual/zh/function.strrchr.php) — 查找指定字符在字符串中的最后一次出现
+- [strrev](http://php.net/manual/zh/function.strrev.php) — 反转字符串
+- [strripos](http://php.net/manual/zh/function.strripos.php) — 计算指定字符串在目标字符串中最后一次出现的位置（不区分大小写）
+- [strrpos](http://php.net/manual/zh/function.strrpos.php) — 计算指定字符串在目标字符串中最后一次出现的位置
+- [strspn](http://php.net/manual/zh/function.strspn.php) — 计算字符串中全部字符都存在于指定字符集合中的第一段子串的长度。
+- [strstr](http://php.net/manual/zh/function.strstr.php) — 查找字符串的首次出现
+- [strtok](http://php.net/manual/zh/function.strtok.php) — 标记分割字符串
+- [strtolower](http://php.net/manual/zh/function.strtolower.php) — 将字符串转化为小写
+- [strtoupper](http://php.net/manual/zh/function.strtoupper.php) — 将字符串转化为大写
+- [strtr](http://php.net/manual/zh/function.strtr.php) — 转换指定字符
+- [substr_compare](http://php.net/manual/zh/function.substr-compare.php) — 二进制安全比较字符串（从偏移位置比较指定长度）
+- [substr_count](http://php.net/manual/zh/function.substr-count.php) — 计算字串出现的次数
+- [substr_replace](http://php.net/manual/zh/function.substr-replace.php) — 替换字符串的子串
+- [substr](http://php.net/manual/zh/function.substr.php) — 返回字符串的子串
+- [trim](http://php.net/manual/zh/function.trim.php) — 去除字符串首尾处的空白字符（或者其他字符）
+- [ucfirst](http://php.net/manual/zh/function.ucfirst.php) — 将字符串的首字母转换为大写
+- [ucwords](http://php.net/manual/zh/function.ucwords.php) — 将字符串中每个单词的首字母转换为大写
+- [vfprintf](http://php.net/manual/zh/function.vfprintf.php) — 将格式化字符串写入流
+- [vprintf](http://php.net/manual/zh/function.vprintf.php) — 输出格式化字符串
+- [vsprintf](http://php.net/manual/zh/function.vsprintf.php) — 返回格式化字符串
+- [wordwrap](http://php.net/manual/zh/function.wordwrap.php) — 打断字符串为指定数量的字串
+
+## 错误处理函数
+
+- [debug_backtrace](http://php.net/manual/zh/function.debug-backtrace.php) — 产生一条回溯跟踪(backtrace)
+- [debug_print_backtrace](http://php.net/manual/zh/function.debug-print-backtrace.php) — 打印一条回溯。
+- [error_clear_last](http://php.net/manual/zh/function.error-clear-last.php) — 清除最近一次错误
+- [error_get_last](http://php.net/manual/zh/function.error-get-last.php) — 获取最后发生的错误
+- [error_log](http://php.net/manual/zh/function.error-log.php) — 发送错误信息到某个地方
+- [error_reporting](http://php.net/manual/zh/function.error-reporting.php) — 设置应该报告何种 PHP 错误
+- [restore_error_handler](http://php.net/manual/zh/function.restore-error-handler.php) — 还原之前的错误处理函数
+- [restore_exception_handler](http://php.net/manual/zh/function.restore-exception-handler.php) — 恢复之前定义过的异常处理函数。
+- [set_error_handler](http://php.net/manual/zh/function.set-error-handler.php) — 设置用户自定义的错误处理函数
+- [set_exception_handler](http://php.net/manual/zh/function.set-exception-handler.php) — 设置用户自定义的异常处理函数
+- [trigger_error](http://php.net/manual/zh/function.trigger-error.php) — 产生一个用户级别的 error/warning/notice 信息
+- [user_error](http://php.net/manual/zh/function.user-error.php) — trigger_error 的别名
+
+## 目录函数
+
+- [chdir](http://php.net/manual/zh/function.chdir.php) — 改变目录
+- [chroot](http://php.net/manual/zh/function.chroot.php) — 改变根目录
+- [closedir](http://php.net/manual/zh/function.closedir.php) — 关闭目录句柄
+- [dir](http://php.net/manual/zh/function.dir.php) — 返回一个 Directory 类实例
+- [getcwd](http://php.net/manual/zh/function.getcwd.php) — 取得当前工作目录
+- [opendir](http://php.net/manual/zh/function.opendir.php) — 打开目录句柄
+- [readdir](http://php.net/manual/zh/function.readdir.php) — 从目录句柄中读取条目
+- [rewinddir](http://php.net/manual/zh/function.rewinddir.php) — 倒回目录句柄
+- [scandir](http://php.net/manual/zh/function.scandir.php) — 列出指定路径中的文件和目录
+
+## 文件系统函数
+
+- [basename](http://php.net/manual/zh/function.basename.php) — 返回路径中的文件名部分
+- [chgrp](http://php.net/manual/zh/function.chgrp.php) — 改变文件所属的组
+- [chmod](http://php.net/manual/zh/function.chmod.php) — 改变文件模式
+- [chown](http://php.net/manual/zh/function.chown.php) — 改变文件的所有者
+- [clearstatcache](http://php.net/manual/zh/function.clearstatcache.php) — 清除文件状态缓存
+- [copy](http://php.net/manual/zh/function.copy.php) — 拷贝文件
+- [delete](http://php.net/manual/zh/function.delete.php) — 参见 unlink 或 unset
+- [dirname](http://php.net/manual/zh/function.dirname.php) — 返回路径中的目录部分
+- [disk_free_space](http://php.net/manual/zh/function.disk-free-space.php) — 返回目录中的可用空间
+- [disk_total_space](http://php.net/manual/zh/function.disk-total-space.php) — 返回一个目录的磁盘总大小
+- [diskfreespace](http://php.net/manual/zh/function.diskfreespace.php) — disk_free_space 的别名
+- [fclose](http://php.net/manual/zh/function.fclose.php) — 关闭一个已打开的文件指针
+- [feof](http://php.net/manual/zh/function.feof.php) — 测试文件指针是否到了文件结束的位置
+- [fflush](http://php.net/manual/zh/function.fflush.php) — 将缓冲内容输出到文件
+- [fgetc](http://php.net/manual/zh/function.fgetc.php) — 从文件指针中读取字符
+- [fgetcsv](http://php.net/manual/zh/function.fgetcsv.php) — 从文件指针中读入一行并解析 CSV 字段
+- [fgets](http://php.net/manual/zh/function.fgets.php) — 从文件指针中读取一行
+- [fgetss](http://php.net/manual/zh/function.fgetss.php) — 从文件指针中读取一行并过滤掉 HTML 标记
+- [file_exists](http://php.net/manual/zh/function.file-exists.php) — 检查文件或目录是否存在
+- [file_get_contents](http://php.net/manual/zh/function.file-get-contents.php) — 将整个文件读入一个字符串
+- [file_put_contents](http://php.net/manual/zh/function.file-put-contents.php) — 将一个字符串写入文件
+- [file](http://php.net/manual/zh/function.file.php) — 把整个文件读入一个数组中
+- [fileatime](http://php.net/manual/zh/function.fileatime.php) — 取得文件的上次访问时间
+- [filectime](http://php.net/manual/zh/function.filectime.php) — 取得文件的 inode 修改时间
+- [filegroup](http://php.net/manual/zh/function.filegroup.php) — 取得文件的组
+- [fileinode](http://php.net/manual/zh/function.fileinode.php) — 取得文件的 inode
+- [filemtime](http://php.net/manual/zh/function.filemtime.php) — 取得文件修改时间
+- [fileowner](http://php.net/manual/zh/function.fileowner.php) — 取得文件的所有者
+- [fileperms](http://php.net/manual/zh/function.fileperms.php) — 取得文件的权限
+- [filesize](http://php.net/manual/zh/function.filesize.php) — 取得文件大小
+- [filetype](http://php.net/manual/zh/function.filetype.php) — 取得文件类型
+- [flock](http://php.net/manual/zh/function.flock.php) — 轻便的咨询文件锁定
+- [fnmatch](http://php.net/manual/zh/function.fnmatch.php) — 用模式匹配文件名
+- [fopen](http://php.net/manual/zh/function.fopen.php) — 打开文件或者 URL
+- [fpassthru](http://php.net/manual/zh/function.fpassthru.php) — 输出文件指针处的所有剩余数据
+- [fputcsv](http://php.net/manual/zh/function.fputcsv.php) — 将行格式化为 CSV 并写入文件指针
+- [fputs](http://php.net/manual/zh/function.fputs.php) — fwrite 的别名
+- [fread](http://php.net/manual/zh/function.fread.php) — 读取文件（可安全用于二进制文件）
+- [fscanf](http://php.net/manual/zh/function.fscanf.php) — 从文件中格式化输入
+- [fseek](http://php.net/manual/zh/function.fseek.php) — 在文件指针中定位
+- [fstat](http://php.net/manual/zh/function.fstat.php) — 通过已打开的文件指针取得文件信息
+- [ftell](http://php.net/manual/zh/function.ftell.php) — 返回文件指针读/写的位置
+- [ftruncate](http://php.net/manual/zh/function.ftruncate.php) — 将文件截断到给定的长度
+- [fwrite](http://php.net/manual/zh/function.fwrite.php) — 写入文件（可安全用于二进制文件）
+- [glob](http://php.net/manual/zh/function.glob.php) — 寻找与模式匹配的文件路径
+- [is_dir](http://php.net/manual/zh/function.is-dir.php) — 判断给定文件名是否是一个目录
+- [is_executable](http://php.net/manual/zh/function.is-executable.php) — 判断给定文件名是否可执行
+- [is_file](http://php.net/manual/zh/function.is-file.php) — 判断给定文件名是否为一个正常的文件
+- [is_link](http://php.net/manual/zh/function.is-link.php) — 判断给定文件名是否为一个符号连接
+- [is_readable](http://php.net/manual/zh/function.is-readable.php) — 判断给定文件名是否可读
+- [is_uploaded_file](http://php.net/manual/zh/function.is-uploaded-file.php) — 判断文件是否是通过 HTTP POST 上传的
+- [is_writable](http://php.net/manual/zh/function.is-writable.php) — 判断给定的文件名是否可写
+- [is_writeable](http://php.net/manual/zh/function.is-writeable.php) — is_writable 的别名
+- [lchgrp](http://php.net/manual/zh/function.lchgrp.php) — 修改符号链接的所有组
+- [lchown](http://php.net/manual/zh/function.lchown.php) — 修改符号链接的所有者
+- [link](http://php.net/manual/zh/function.link.php) — 建立一个硬连接
+- [linkinfo](http://php.net/manual/zh/function.linkinfo.php) — 获取一个连接的信息
+- [lstat](http://php.net/manual/zh/function.lstat.php) — 给出一个文件或符号连接的信息
+- [mkdir](http://php.net/manual/zh/function.mkdir.php) — 新建目录
+- [move_uploaded_file](http://php.net/manual/zh/function.move-uploaded-file.php) — 将上传的文件移动到新位置
+- [parse_ini_file](http://php.net/manual/zh/function.parse-ini-file.php) — 解析一个配置文件
+- [parse_ini_string](http://php.net/manual/zh/function.parse-ini-string.php) — 解析配置字符串
+- [pathinfo](http://php.net/manual/zh/function.pathinfo.php) — 返回文件路径的信息
+- [pclose](http://php.net/manual/zh/function.pclose.php) — 关闭进程文件指针
+- [popen](http://php.net/manual/zh/function.popen.php) — 打开进程文件指针
+- [readfile](http://php.net/manual/zh/function.readfile.php) — 输出文件
+- [readlink](http://php.net/manual/zh/function.readlink.php) — 返回符号连接指向的目标
+- [realpath_cache_get](http://php.net/manual/zh/function.realpath-cache-get.php) — 获取真实目录缓存的详情
+- [realpath_cache_size](http://php.net/manual/zh/function.realpath-cache-size.php) — 获取真实路径缓冲区的大小
+- [realpath](http://php.net/manual/zh/function.realpath.php) — 返回规范化的绝对路径名
+- [rename](http://php.net/manual/zh/function.rename.php) — 重命名一个文件或目录
+- [rewind](http://php.net/manual/zh/function.rewind.php) — 倒回文件指针的位置
+- [rmdir](http://php.net/manual/zh/function.rmdir.php) — 删除目录
+- [set_file_buffer](http://php.net/manual/zh/function.set-file-buffer.php) — stream_set_write_buffer 的别名
+- [stat](http://php.net/manual/zh/function.stat.php) — 给出文件的信息
+- [symlink](http://php.net/manual/zh/function.symlink.php) — 建立符号连接
+- [tempnam](http://php.net/manual/zh/function.tempnam.php) — 建立一个具有唯一文件名的文件
+- [tmpfile](http://php.net/manual/zh/function.tmpfile.php) — 建立一个临时文件
+- [touch](http://php.net/manual/zh/function.touch.php) — 设定文件的访问和修改时间
+- [umask](http://php.net/manual/zh/function.umask.php) — 改变当前的 umask
+- [unlink](http://php.net/manual/zh/function.unlink.php) — 删除文件
+
+## SPL函数
+
+- [class_implements](http://php.net/manual/zh/function.class-implements.php) — 返回指定的类实现的所有接口。
+- [class_parents](http://php.net/manual/zh/function.class-parents.php) — 返回指定类的父类。
+- [class_uses](http://php.net/manual/zh/function.class-uses.php) — Return the traits used by the given class
+- [iterator_apply](http://php.net/manual/zh/function.iterator-apply.php) — 为迭代器中每个元素调用一个用户自定义函数
+- [iterator_count](http://php.net/manual/zh/function.iterator-count.php) — 计算迭代器中元素的个数
+- [iterator_to_array](http://php.net/manual/zh/function.iterator-to-array.php) — 将迭代器中的元素拷贝到数组
+- [spl_autoload_call](http://php.net/manual/zh/function.spl-autoload-call.php) — 尝试调用所有已注册的__autoload()函数来装载请求类
+- [spl_autoload_extensions](http://php.net/manual/zh/function.spl-autoload-extensions.php) — 注册并返回spl_autoload函数使用的默认文件扩展名。
+- [spl_autoload_functions](http://php.net/manual/zh/function.spl-autoload-functions.php) — 返回所有已注册的__autoload()函数。
+- [spl_autoload_register](http://php.net/manual/zh/function.spl-autoload-register.php) — 注册给定的函数作为 __autoload 的实现
+- [spl_autoload_unregister](http://php.net/manual/zh/function.spl-autoload-unregister.php) — 注销已注册的__autoload()函数
+- [spl_autoload](http://php.net/manual/zh/function.spl-autoload.php) — __autoload()函数的默认实现
+- [spl_classes](http://php.net/manual/zh/function.spl-classes.php) — 返回所有可用的SPL类
+- [spl_object_hash](http://php.net/manual/zh/function.spl-object-hash.php) — 返回指定对象的hash id
+
+## Math 函数
+
+- [abs](http://php.net/manual/zh/function.abs.php) — 绝对值
+- [acos](http://php.net/manual/zh/function.acos.php) — 反余弦
+- [acosh](http://php.net/manual/zh/function.acosh.php) — 反双曲余弦
+- [asin](http://php.net/manual/zh/function.asin.php) — 反正弦
+- [asinh](http://php.net/manual/zh/function.asinh.php) — 反双曲正弦
+- [atan2](http://php.net/manual/zh/function.atan2.php) — 两个参数的反正切
+- [atan](http://php.net/manual/zh/function.atan.php) — 反正切
+- [atanh](http://php.net/manual/zh/function.atanh.php) — 反双曲正切
+- [base_convert](http://php.net/manual/zh/function.base-convert.php) — 在任意进制之间转换数字
+- [bindec](http://php.net/manual/zh/function.bindec.php) — 二进制转换为十进制
+- [ceil](http://php.net/manual/zh/function.ceil.php) — 进一法取整
+- [cos](http://php.net/manual/zh/function.cos.php) — 余弦
+- [cosh](http://php.net/manual/zh/function.cosh.php) — 双曲余弦
+- [decbin](http://php.net/manual/zh/function.decbin.php) — 十进制转换为二进制
+- [dechex](http://php.net/manual/zh/function.dechex.php) — 十进制转换为十六进制
+- [decoct](http://php.net/manual/zh/function.decoct.php) — 十进制转换为八进制
+- [deg2rad](http://php.net/manual/zh/function.deg2rad.php) — 将角度转换为弧度
+- [exp](http://php.net/manual/zh/function.exp.php) — 计算 e 的指数
+- [expm1](http://php.net/manual/zh/function.expm1.php) — 返回 exp(number) - 1，甚至当 number 的值接近零也能计算出准确结果
+- [floor](http://php.net/manual/zh/function.floor.php) — 舍去法取整
+- [fmod](http://php.net/manual/zh/function.fmod.php) — 返回除法的浮点数余数
+- [getrandmax](http://php.net/manual/zh/function.getrandmax.php) — 显示随机数最大的可能值
+- [hexdec](http://php.net/manual/zh/function.hexdec.php) — 十六进制转换为十进制
+- [hypot](http://php.net/manual/zh/function.hypot.php) — 计算一直角三角形的斜边长度
+- [intdiv](http://php.net/manual/zh/function.intdiv.php) — 对除法结果取整
+- [is_finite](http://php.net/manual/zh/function.is-finite.php) — 判断是否为有限值
+- [is_infinite](http://php.net/manual/zh/function.is-infinite.php) — 判断是否为无限值
+- [is_nan](http://php.net/manual/zh/function.is-nan.php) — 判断是否为合法数值
+- [lcg_value](http://php.net/manual/zh/function.lcg-value.php) — 组合线性同余发生器
+- [log10](http://php.net/manual/zh/function.log10.php) — 以 10 为底的对数
+- [log1p](http://php.net/manual/zh/function.log1p.php) — 返回 log(1 + number)，甚至当 number 的值接近零也能计算出准确结果
+- [log](http://php.net/manual/zh/function.log.php) — 自然对数
+- [max](http://php.net/manual/zh/function.max.php) — 找出最大值
+- [min](http://php.net/manual/zh/function.min.php) — 找出最小值
+- [mt_getrandmax](http://php.net/manual/zh/function.mt-getrandmax.php) — 显示随机数的最大可能值
+- [mt_rand](http://php.net/manual/zh/function.mt-rand.php) — 生成更好的随机数
+- [mt_srand](http://php.net/manual/zh/function.mt-srand.php) — 播下一个更好的随机数发生器种子
+- [octdec](http://php.net/manual/zh/function.octdec.php) — 八进制转换为十进制
+- [pi](http://php.net/manual/zh/function.pi.php) — 得到圆周率值
+- [pow](http://php.net/manual/zh/function.pow.php) — 指数表达式
+- [rad2deg](http://php.net/manual/zh/function.rad2deg.php) — 将弧度数转换为相应的角度数
+- [rand](http://php.net/manual/zh/function.rand.php) — 产生一个随机整数
+- [round](http://php.net/manual/zh/function.round.php) — 对浮点数进行四舍五入
+- [sin](http://php.net/manual/zh/function.sin.php) — 正弦
+- [sinh](http://php.net/manual/zh/function.sinh.php) — 双曲正弦
+- [sqrt](http://php.net/manual/zh/function.sqrt.php) — 平方根
+- [srand](http://php.net/manual/zh/function.srand.php) — 播下随机数发生器种子
+- [tan](http://php.net/manual/zh/function.tan.php) — 正切
+- [tanh](http://php.net/manual/zh/function.tanh.php) — 双曲正切
+
+## GD和图像处理函数
+
+- [gd_info](http://php.net/manual/zh/function.gd-info.php) — 取得当前安装的 GD 库的信息
+- [getimagesize](http://php.net/manual/zh/function.getimagesize.php) — 取得图像大小
+- [getimagesizefromstring](http://php.net/manual/zh/function.getimagesizefromstring.php) — 从字符串中获取图像尺寸信息
+- [image_type_to_extension](http://php.net/manual/zh/function.image-type-to-extension.php) — 取得图像类型的文件后缀
+- [image_type_to_mime_type](http://php.net/manual/zh/function.image-type-to-mime-type.php) — 取得 getimagesize，exif_read_data，exif_thumbnail，exif_imagetype 所返回的图像类型的 MIME 类型
+- [image2wbmp](http://php.net/manual/zh/function.image2wbmp.php) — 以 WBMP 格式将图像输出到浏览器或文件
+- [imageaffine](http://php.net/manual/zh/function.imageaffine.php) — 返回经过仿射变换后的图像，剪切区域可选
+- [imageaffinematrixconcat](http://php.net/manual/zh/function.imageaffinematrixconcat.php) — Concatenate two affine transformation matrices
+- [imageaffinematrixget](http://php.net/manual/zh/function.imageaffinematrixget.php) — Get an affine transformation matrix
+- [imagealphablending](http://php.net/manual/zh/function.imagealphablending.php) — 设定图像的混色模式
+- [imageantialias](http://php.net/manual/zh/function.imageantialias.php) — 是否使用抗锯齿（antialias）功能
+- [imagearc](http://php.net/manual/zh/function.imagearc.php) — 画椭圆弧
+- [imagebmp](http://php.net/manual/zh/function.imagebmp.php) — Output a BMP image to browser or file
+- [imagechar](http://php.net/manual/zh/function.imagechar.php) — 水平地画一个字符
+- [imagecharup](http://php.net/manual/zh/function.imagecharup.php) — 垂直地画一个字符
+- [imagecolorallocate](http://php.net/manual/zh/function.imagecolorallocate.php) — 为一幅图像分配颜色
+- [imagecolorallocatealpha](http://php.net/manual/zh/function.imagecolorallocatealpha.php) — 为一幅图像分配颜色 + alpha
+- [imagecolorat](http://php.net/manual/zh/function.imagecolorat.php) — 取得某像素的颜色索引值
+- [imagecolorclosest](http://php.net/manual/zh/function.imagecolorclosest.php) — 取得与指定的颜色最接近的颜色的索引值
+- [imagecolorclosestalpha](http://php.net/manual/zh/function.imagecolorclosestalpha.php) — 取得与指定的颜色加透明度最接近的颜色
+- [imagecolorclosesthwb](http://php.net/manual/zh/function.imagecolorclosesthwb.php) — 取得与给定颜色最接近的色度的黑白色的索引
+- [imagecolordeallocate](http://php.net/manual/zh/function.imagecolordeallocate.php) — 取消图像颜色的分配
+- [imagecolorexact](http://php.net/manual/zh/function.imagecolorexact.php) — 取得指定颜色的索引值
+- [imagecolorexactalpha](http://php.net/manual/zh/function.imagecolorexactalpha.php) — 取得指定的颜色加透明度的索引值
+- [imagecolormatch](http://php.net/manual/zh/function.imagecolormatch.php) — 使一个图像中调色板版本的颜色与真彩色版本更能匹配
+- [imagecolorresolve](http://php.net/manual/zh/function.imagecolorresolve.php) — 取得指定颜色的索引值或有可能得到的最接近的替代值
+- [imagecolorresolvealpha](http://php.net/manual/zh/function.imagecolorresolvealpha.php) — 取得指定颜色 + alpha 的索引值或有可能得到的最接近的替代值
+- [imagecolorset](http://php.net/manual/zh/function.imagecolorset.php) — 给指定调色板索引设定颜色
+- [imagecolorsforindex](http://php.net/manual/zh/function.imagecolorsforindex.php) — 取得某索引的颜色
+- [imagecolorstotal](http://php.net/manual/zh/function.imagecolorstotal.php) — 取得一幅图像的调色板中颜色的数目
+- [imagecolortransparent](http://php.net/manual/zh/function.imagecolortransparent.php) — 将某个颜色定义为透明色
+- [imageconvolution](http://php.net/manual/zh/function.imageconvolution.php) — 用系数 div 和 offset 申请一个 3x3 的卷积矩阵
+- [imagecopy](http://php.net/manual/zh/function.imagecopy.php) — 拷贝图像的一部分
+- [imagecopymerge](http://php.net/manual/zh/function.imagecopymerge.php) — 拷贝并合并图像的一部分
+- [imagecopymergegray](http://php.net/manual/zh/function.imagecopymergegray.php) — 用灰度拷贝并合并图像的一部分
+- [imagecopyresampled](http://php.net/manual/zh/function.imagecopyresampled.php) — 重采样拷贝部分图像并调整大小
+- [imagecopyresized](http://php.net/manual/zh/function.imagecopyresized.php) — 拷贝部分图像并调整大小
+- [imagecreate](http://php.net/manual/zh/function.imagecreate.php) — 新建一个基于调色板的图像
+- [imagecreatefrombmp](http://php.net/manual/zh/function.imagecreatefrombmp.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefromgd2](http://php.net/manual/zh/function.imagecreatefromgd2.php) — 从 GD2 文件或 URL 新建一图像
+- [imagecreatefromgd2part](http://php.net/manual/zh/function.imagecreatefromgd2part.php) — 从给定的 GD2 文件或 URL 中的部分新建一图像
+- [imagecreatefromgd](http://php.net/manual/zh/function.imagecreatefromgd.php) — 从 GD 文件或 URL 新建一图像
+- [imagecreatefromgif](http://php.net/manual/zh/function.imagecreatefromgif.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefromjpeg](http://php.net/manual/zh/function.imagecreatefromjpeg.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefrompng](http://php.net/manual/zh/function.imagecreatefrompng.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefromstring](http://php.net/manual/zh/function.imagecreatefromstring.php) — 从字符串中的图像流新建一图像
+- [imagecreatefromwbmp](http://php.net/manual/zh/function.imagecreatefromwbmp.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefromwebp](http://php.net/manual/zh/function.imagecreatefromwebp.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefromxbm](http://php.net/manual/zh/function.imagecreatefromxbm.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatefromxpm](http://php.net/manual/zh/function.imagecreatefromxpm.php) — 由文件或 URL 创建一个新图象。
+- [imagecreatetruecolor](http://php.net/manual/zh/function.imagecreatetruecolor.php) — 新建一个真彩色图像
+- [imagecrop](http://php.net/manual/zh/function.imagecrop.php) — Crop an image to the given rectangle
+- [imagecropauto](http://php.net/manual/zh/function.imagecropauto.php) — Crop an image automatically using one of the available modes
+- [imagedashedline](http://php.net/manual/zh/function.imagedashedline.php) — 画一虚线
+- [imagedestroy](http://php.net/manual/zh/function.imagedestroy.php) — 销毁一图像
+- [imageellipse](http://php.net/manual/zh/function.imageellipse.php) — 画一个椭圆
+- [imagefill](http://php.net/manual/zh/function.imagefill.php) — 区域填充
+- [imagefilledarc](http://php.net/manual/zh/function.imagefilledarc.php) — 画一椭圆弧且填充
+- [imagefilledellipse](http://php.net/manual/zh/function.imagefilledellipse.php) — 画一椭圆并填充
+- [imagefilledpolygon](http://php.net/manual/zh/function.imagefilledpolygon.php) — 画一多边形并填充
+- [imagefilledrectangle](http://php.net/manual/zh/function.imagefilledrectangle.php) — 画一矩形并填充
+- [imagefilltoborder](http://php.net/manual/zh/function.imagefilltoborder.php) — 区域填充到指定颜色的边界为止
+- [imagefilter](http://php.net/manual/zh/function.imagefilter.php) — 对图像使用过滤器
+- [imageflip](http://php.net/manual/zh/function.imageflip.php) — Flips an image using a given mode
+- [imagefontheight](http://php.net/manual/zh/function.imagefontheight.php) — 取得字体高度
+- [imagefontwidth](http://php.net/manual/zh/function.imagefontwidth.php) — 取得字体宽度
+- [imageftbbox](http://php.net/manual/zh/function.imageftbbox.php) — 给出一个使用 FreeType 2 字体的文本框
+- [imagefttext](http://php.net/manual/zh/function.imagefttext.php) — 使用 FreeType 2 字体将文本写入图像
+- [imagegammacorrect](http://php.net/manual/zh/function.imagegammacorrect.php) — 对 GD 图像应用 gamma 修正
+- [imagegd2](http://php.net/manual/zh/function.imagegd2.php) — 将 GD2 图像输出到浏览器或文件
+- [imagegd](http://php.net/manual/zh/function.imagegd.php) — 将 GD 图像输出到浏览器或文件
+- [imagegetclip](http://php.net/manual/zh/function.imagegetclip.php) — Get the clipping rectangle
+- [imagegif](http://php.net/manual/zh/function.imagegif.php) — 输出图象到浏览器或文件。
+- [imagegrabscreen](http://php.net/manual/zh/function.imagegrabscreen.php) — Captures the whole screen
+- [imagegrabwindow](http://php.net/manual/zh/function.imagegrabwindow.php) — Captures a window
+- [imageinterlace](http://php.net/manual/zh/function.imageinterlace.php) — 激活或禁止隔行扫描
+- [imageistruecolor](http://php.net/manual/zh/function.imageistruecolor.php) — 检查图像是否为真彩色图像
+- [imagejpeg](http://php.net/manual/zh/function.imagejpeg.php) — 输出图象到浏览器或文件。
+- [imagelayereffect](http://php.net/manual/zh/function.imagelayereffect.php) — 设定 alpha 混色标志以使用绑定的 libgd 分层效果
+- [imageline](http://php.net/manual/zh/function.imageline.php) — 画一条线段
+- [imageloadfont](http://php.net/manual/zh/function.imageloadfont.php) — 载入一新字体
+- [imageopenpolygon](http://php.net/manual/zh/function.imageopenpolygon.php) — Draws an open polygon
+- [imagepalettecopy](http://php.net/manual/zh/function.imagepalettecopy.php) — 将调色板从一幅图像拷贝到另一幅
+- [imagepalettetotruecolor](http://php.net/manual/zh/function.imagepalettetotruecolor.php) — Converts a palette based image to true color
+- [imagepng](http://php.net/manual/zh/function.imagepng.php) — 以 PNG 格式将图像输出到浏览器或文件
+- [imagepolygon](http://php.net/manual/zh/function.imagepolygon.php) — 画一个多边形
+- [imagepsbbox](http://php.net/manual/zh/function.imagepsbbox.php) — 给出一个使用 PostScript Type1 字体的文本方框
+- [imagepsencodefont](http://php.net/manual/zh/function.imagepsencodefont.php) — 改变字体中的字符编码矢量
+- [imagepsextendfont](http://php.net/manual/zh/function.imagepsextendfont.php) — 扩充或精简字体
+- [imagepsfreefont](http://php.net/manual/zh/function.imagepsfreefont.php) — 释放一个 PostScript Type 1 字体所占用的内存
+- [imagepsloadfont](http://php.net/manual/zh/function.imagepsloadfont.php) — 从文件中加载一个 PostScript Type 1 字体
+- [imagepsslantfont](http://php.net/manual/zh/function.imagepsslantfont.php) — 倾斜某字体
+- [imagepstext](http://php.net/manual/zh/function.imagepstext.php) — 用 PostScript Type1 字体把文本字符串画在图像上
+- [imagerectangle](http://php.net/manual/zh/function.imagerectangle.php) — 画一个矩形
+- [imageresolution](http://php.net/manual/zh/function.imageresolution.php) — Get or set the resolution of the image
+- [imagerotate](http://php.net/manual/zh/function.imagerotate.php) — 用给定角度旋转图像
+- [imagesavealpha](http://php.net/manual/zh/function.imagesavealpha.php) — 设置标记以在保存 PNG 图像时保存完整的 alpha 通道信息（与单一透明色相反）
+- [imagescale](http://php.net/manual/zh/function.imagescale.php) — Scale an image using the given new width and height
+- [imagesetbrush](http://php.net/manual/zh/function.imagesetbrush.php) — 设定画线用的画笔图像
+- [imagesetclip](http://php.net/manual/zh/function.imagesetclip.php) — Set the clipping rectangle
+- [imagesetinterpolation](http://php.net/manual/zh/function.imagesetinterpolation.php) — Set the interpolation method
+- [imagesetpixel](http://php.net/manual/zh/function.imagesetpixel.php) — 画一个单一像素
+- [imagesetstyle](http://php.net/manual/zh/function.imagesetstyle.php) — 设定画线的风格
+- [imagesetthickness](http://php.net/manual/zh/function.imagesetthickness.php) — 设定画线的宽度
+- [imagesettile](http://php.net/manual/zh/function.imagesettile.php) — 设定用于填充的贴图
+- [imagestring](http://php.net/manual/zh/function.imagestring.php) — 水平地画一行字符串
+- [imagestringup](http://php.net/manual/zh/function.imagestringup.php) — 垂直地画一行字符串
+- [imagesx](http://php.net/manual/zh/function.imagesx.php) — 取得图像宽度
+- [imagesy](http://php.net/manual/zh/function.imagesy.php) — 取得图像高度
+- [imagetruecolortopalette](http://php.net/manual/zh/function.imagetruecolortopalette.php) — 将真彩色图像转换为调色板图像
+- [imagettfbbox](http://php.net/manual/zh/function.imagettfbbox.php) — 取得使用 TrueType 字体的文本的范围
+- [imagettftext](http://php.net/manual/zh/function.imagettftext.php) — 用 TrueType 字体向图像写入文本
+- [imagetypes](http://php.net/manual/zh/function.imagetypes.php) — 返回当前 PHP 版本所支持的图像类型
+- [imagewbmp](http://php.net/manual/zh/function.imagewbmp.php) — 以 WBMP 格式将图像输出到浏览器或文件
+- [imagewebp](http://php.net/manual/zh/function.imagewebp.php) — 将 WebP 格式的图像输出到浏览器或文件
+- [imagexbm](http://php.net/manual/zh/function.imagexbm.php) — 将 XBM 图像输出到浏览器或文件
+- [iptcembed](http://php.net/manual/zh/function.iptcembed.php) — 将二进制 IPTC 数据嵌入到一幅 JPEG 图像中
+- [iptcparse](http://php.net/manual/zh/function.iptcparse.php) — 将二进制 IPTC 块解析为单个标记
+- [jpeg2wbmp](http://php.net/manual/zh/function.jpeg2wbmp.php) — 将 JPEG 图像文件转换为 WBMP 图像文件
+- [png2wbmp](http://php.net/manual/zh/function.png2wbmp.php) — 将 PNG 图像文件转换为 WBMP 图像文件
