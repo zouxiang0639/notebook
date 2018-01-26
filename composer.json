@@ -1,0 +1,18 @@
+{
+	"name": "zouxiang0639/notebook",
+    "description": "个人笔记本",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zouxiang",
+            "email": "542506511@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "notebook": ""
+        }
+    }
+}
+
