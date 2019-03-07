@@ -4,8 +4,8 @@ namespace notebook;
 
 class Notebook
 {
-    public static function getNotebook()
+    public static function getPath($path = null)
     {
-        return 1;
+        return __DIR__.DIRECTORY_SEPARATOR.$path;
     }
 }

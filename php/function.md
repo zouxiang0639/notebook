@@ -483,3 +483,7 @@
 - [iptcparse](http://php.net/manual/zh/function.iptcparse.php) — 将二进制 IPTC 块解析为单个标记
 - [jpeg2wbmp](http://php.net/manual/zh/function.jpeg2wbmp.php) — 将 JPEG 图像文件转换为 WBMP 图像文件
 - [png2wbmp](http://php.net/manual/zh/function.png2wbmp.php) — 将 PNG 图像文件转换为 WBMP 图像文件
+
+## Date/Time函数
+
+- [date_parse_from_format](http://php.net/manual/zh/function.date-parse-from-format.php) — Get info about given date formatted according to the specified format
